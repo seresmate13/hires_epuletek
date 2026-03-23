@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 
 	<head>
+		<title>Híres épületek</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="epuletek.css">
 	</head>
 	
 	<body>
+		<div class="card">
 		<div class="container-fluid">
 			<div class="row">
 			<div class="col-md-10 offset-md-1">
@@ -14,23 +18,31 @@
 					<h1>Híres épületek</h1>
 					<p>A világ legismertebb építményei a történelem, az építészet és a turizmus szempontjából is kiemelkedő jelentőségűek.</p>
 					<h2>Története</h2>
+					<p>Az emberiség történetének legjelentősebb építményei nemcsak műszaki teljesítmények, hanem kulturális jelképek is. A híres épületek gyakran egy-egy korszak technológiai tudását, vallási vagy politikai erejét, illetve művészeti szemléletét mutatják be. Sok ilyen alkotás ma már a világörökség része, ezért megőrzésük nemzetközi jelentőségű feladat.</p>
+
+						<p>Az Eiffel-torony eredetileg az 1889-es párizsi világkiállításra épült, a Colosseum az ókori Róma egyik legismertebb emléke, míg a barcelonai Sagrada Família máig épülő bazilika. A világörökségi helyszínek közül több is az <a href="https://hu.wikipedia.org/wiki/UNESCO" target="_blank">UNESCO</a> védelme alatt áll, így a kutatás, a felújítás és a turisztikai hasznosítás egyszerre jelenik meg velük kapcsolatban.</p>
+						
+						<p>A modern városképekben ezek az épületek gyakran tájékozódási pontként, találkozóhelyként és egy-egy ország nemzetközi arculatának meghatározó elemeként szolgálnak. Jelentőségük ezért túlmutat a funkciójukon: történelmi, kulturális és idegenforgalmi szempontból is kiemelkedőek.</p>
 				</div>
 				<div class="col-md-4">
-					<img src="epuletek.jpg">
+					<img src="epuletek.jpg" class="img-thumbnail">
 				</div>
 			</div>
 			<div id="felso" class="row">
 				<div class="col-md-12">
-					<h2>Galéria</h2>
+					<h2 class="kozep">Galéria</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<img src="eiffel-torony.jpg" alt="Eiffel-torony" title="Eiffel-torony" class="img-thumbnail galeriakep"><p class="kepfelirat">Eiffel-torony</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<img src="colosseum.jpg" alt="Colosseum" title="Colosseum" class="img-thumbnail galeriakep"><p class="kepfelirat">Colosseum</p>
+				</div>
+				<div class="col-md-4">
+					<img src="sagrada-belso.jpg" alt="Sagrada" title="Sagrada de Família" class="img-thumbnail galeriakep"><p class="kepfelirat">Sagrada de Família</p>
 				</div>
 			</div>
 			
@@ -40,27 +52,43 @@
 				</div>
 				<div class="col-md-4">
 					<ul>
-						Típus: kilátótorony
-						Elhelyezkedés: Párizs
-						Ország: Franciaország
-						Magasság: 330 m
-						Anyaga: kovácsoltvas
-						Átadás éve: 1889
+						<li>Típus: kilátótorony</li>
+						<li>Elhelyezkedés: Párizs</li>
+						<li>Ország: Franciaország</li>
+						<li>Magasság: 330 m</li>
+						<li>Anyaga: kovácsoltvas</li>
+						<li>Átadás éve: 1889</li>
 					</ul>
 				</div>
 
 				<div class="col-md-4">
+					<ul>
+						<li>Stílus: kovácsoltvas szerkezet</li>
+						<li>Átadás éve: 1889</li>
+						<li>Helyszín: Párizs, Franciaország</li>
+						<li>Tervező: Gustave Eiffel irodája</li>
+						<li>Magasság: 330 m</li>
+						<li>Funkció: kilátó és rádiótorony</li>
+					</ul>
 				</div>
 
 				<div class="col-md-4">
+					<ul>
+						<li>Anyag: vasrácsos szerkezet</li>
+						<li>Látogatók száma: évente több millió fő</li>
+						<li>Világörökségi státusz: nem önálló helyszín</li>
+						<li>Kiemelt jellemző: Párizs jelképe</li>
+						<li>Felvonók száma: több nyilvános lift</li>
+						<li>Éjszakai díszkivilágítás: igen</li>
+					</ul>
 				</div>
 			</div>
-			
+			<h2 class="kozep">Világörökség helyszínek</h2>
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
 					<div class="table">
-						<table class="table table-bordered" id="tablazat">
-							<thead>
+						<table class="table table-bordered " id="tablazat">
+							<thead class="keret">
 								<tr>
 									<th>Év</th>
 									<th>Épület</th>
@@ -72,7 +100,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>1889</td>
+									<td rowspan="2">1889</td>
 									<td>Eiffel-torony</td>
 									<td>Párizs</td>
 									<td>Franciaország</td>
@@ -80,6 +108,48 @@
 									<td>Nem</td>
 								</tr>
 							</tbody>
+							<tbody>
+								<tr>
+									<td>80</td>
+									<td>Colosseum</td>
+									<td>Róma</td>
+									<td>Olaszország</td>
+									<td>amfiteátrum</td>
+									<td>Igen</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<td>1882</td>
+									<td>Sagrada Família</td>
+									<td>Barcelona</td>
+									<td>Spanyolország</td>
+									<td>bazilika</td>
+									<td>Igen</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<td>napjainkig</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td>epítés alatt</td>
+									<td></td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<td>1632</td>
+									<td>Taj Mahal</td>
+									<td>Agra</td>
+									<td>India</td>
+									<td>mauzóleum</td>
+									<td>Igen</td>
+								</tr>
+							</tbody>
+
+
 						</table>
 					</div>
 				</div>
@@ -87,5 +157,6 @@
 		</div>
 		</div>
 		</div>
+	</div>
 	</body>
 </html>
